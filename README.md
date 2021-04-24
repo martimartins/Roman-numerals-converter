@@ -41,6 +41,7 @@ Esta script apenas foi testada com [python3](https://www.python.org/downloads/re
 
 ### Baixe python
 [Windows](https://www.python.org/downloads/release/python-389/)
+
 Linux -> `sudo apt-get install python3`
 
 ![Scirpt preview](https://i.imgur.com/0aidoe7.png)
