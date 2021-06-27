@@ -15,7 +15,7 @@ numeros_rumanos = {
     "I": 1,
 }
 
-def ConvertNumberRoman(value):
+def ConvertNumberRoman(value: int) -> str:
     """
     Função para converter numero inteiros para numeros romanos usando dict(numeros_rumanos),
     ele verifica cada item da dict e vê se o valor do item é menor que o number_remening(value),
@@ -40,7 +40,7 @@ def ConvertNumberRoman(value):
     return str(roman_number)
 
 
-def ConverterRomanNumber(value):
+def ConverterRomanNumber(value: str) -> str:
     """
     Função para converter numeros rumanos em numeros inteiros usando dict(numeros_rumanos),
     ele vericia cada item na dict, e verifica se existe no value(valor inserido pelo usuario).
@@ -58,7 +58,7 @@ def ConverterRomanNumber(value):
     # RETURNAR O VALOR FINAL
     return str(total_number)
 
-def main():
+def main() -> None:
     print("Convertor de numeros rumanos\n\n")
 
     value = input(">> ")
